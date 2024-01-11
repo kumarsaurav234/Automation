@@ -9,10 +9,10 @@ import static java.time.Duration.ofSeconds;
 
 public class AABTest extends BaseClass{
 
-   // @Test
-    //public void Tc_001(){
-      //  driver.get("https://www.google.com");
-        //System.out.println("Google Opened");
+    @Test
+    public void Tc_001(){
+       driver.get("https://www.google.com");
+        System.out.println("Google Opened");
     //}
     @Test
     public void Tc_002() throws InterruptedException {
